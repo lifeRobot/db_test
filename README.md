@@ -21,7 +21,7 @@ I use Ubuntu for cross compilation, You can install the environment as follows:
     /opt/cpp/linaro/arm-linux-gnueabihf-gcc -v
 4. git clone this project or download this project
 5. if you want to change target, see
-   <a href="https://github.com/lifeRobot/db_test/tree/master/.cargo/config.html">.cargo/config.toml</a>.
+   <a href="https://github.com/lifeRobot/db_test/blob/master/.cargo/config.toml">.cargo/config.toml</a>.
    <br />
    run command build this project:
 
