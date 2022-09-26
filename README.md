@@ -11,10 +11,10 @@ I use Ubuntu for cross compilation, You can install the environment as follows:
 2. run command:
 
 
-    cd /opt
-    tar xvjf gcc-linaro-5.3-20190918.tar.bz2 -C /
-    mkdir -p /opt/cpp/linaro
-    ln -s /opt/EmbedSky/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf/bin/* /opt/cpp/linaro/
+    cd /opt<br />
+    tar xvjf gcc-linaro-5.3-20190918.tar.bz2 -C /<br />
+    mkdir -p /opt/cpp/linaro<br />
+    ln -s /opt/EmbedSky/gcc-linaro-5.3-2016.02-x86_64_arm-linux-gnueabihf/bin/* /opt/cpp/linaro/<br />
 3. run command test cpp dev environment:
 
 
