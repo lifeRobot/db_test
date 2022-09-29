@@ -28,3 +28,6 @@ sled-tables = { version = "0.2.2" }
 
 # rusqlite，sqlite数据库相关
 rusqlite = { version = "0.28.0", features = ["bundled"] }
+# rusqlite = { path = "../rusqlite-0.28.0", features = ["bundled"] }
+
+libsqlite3-sys = { version = "0.25.1", features = ["bundled", "bundled_bindings"] }
