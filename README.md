@@ -5,6 +5,11 @@ create project because of I use toolcahin[gcc-linaro-5.3-2016.02-x86_64_arm-linu
 fail.<br />
 I hope this project can help rusqlite author or me fix err.
 
+# give up
+1. Alright, I give up, I build sqlite success, but I can't use it on c++, see piceure:
+![image](https://user-images.githubusercontent.com/24620124/193222056-fcad1f01-e19b-44b8-99c1-e3533180f374.png)
+![image](https://user-images.githubusercontent.com/24620124/193222414-ccd14d40-5442-4b2a-8989-0526328f58ee.png)
+
 # build fail describe
 1. I try build project by all linaro/arm-linux-gnueabihf version from <a href="https://releases.linaro.org/components/toolchain/binaries/">linaro/arm-linux-gnueabihf</a> webside. any linaro/arm-linux-gnueabihf will be build fail, the build err msg always 'Dwarf Error: found dwarf version '5', this reader only handles version 2, 3 and 4 information.' and 'undefined reference to `fcntl64'', see <a href="https://github.com/lifeRobot/db_test/blob/master/build_log/build_err.txt">build_log/build_err.txt</a>
 2. I think the error may be caused by the gcc version, but I use any <a href="https://releases.linaro.org/components/toolchain/binaries/">linaro/arm-linux-gnueabihf</a> build <a href="https://github.com/sqlite/sqlite">sqlite</a>, and then will be build success
